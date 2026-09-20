@@ -6,7 +6,7 @@ Atividade Aula-05 Desenvolvimento Front-End para Web.
 
 Projeto acadêmico desenvolvido somente com HTML, sem CSS e sem JavaScript.
 
-## Estrutura
+# Estrutura
 
 html/: 12 páginas HTML interligadas por um menu presente em todas.
 
@@ -16,7 +16,7 @@ audio/: áudio local usado com audio controls.
 
 video/: vídeo local usado com video controls.
 
-## Páginas
+# Páginas
 
 1. index.html
 2. historia.html
@@ -31,7 +31,7 @@ video/: vídeo local usado com video controls.
 11. curiosidades.html
 12. cadastro.html
 
-## Conteúdos HTML utilizados
+# Conteúdos HTML utilizados
 
 Tags semânticas: header, nav, main, section, article, aside e footer.
 
@@ -53,7 +53,7 @@ details e summary.
 
 mark, del, ins, abbr, blockquote, progress e meter.
 
-## Mídias
+# Mídias
 
 Antes da entrega, coloque arquivos reais nas pastas mantendo estes nomes:
 
