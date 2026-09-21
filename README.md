@@ -52,19 +52,3 @@ datalist.
 details e summary.
 
 mark, del, ins, abbr, blockquote, progress e meter.
-
-# Mídias
-
-Antes da entrega, coloque arquivos reais nas pastas mantendo estes nomes:
-
-img/minecraft-capa.jpg
-
-img/blocos.jpg
-
-img/video-capa.jpg
-
-audio/minecraft-audio.mp3
-
-video/minecraft-video.mp4
-
-Abra html/index.html para iniciar o projeto.
