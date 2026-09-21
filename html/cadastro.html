@@ -20,7 +20,6 @@
 
     <hr>
 
-    <!-- Menu principal com borda -->
     <nav>
 
         <fieldset>
@@ -67,36 +66,37 @@
 
             <article>
 
-                <!-- Início do formulário -->
+                <p>
+                    Preencha o formulário abaixo com suas informações e preferências relacionadas ao Minecraft.
                 <form>
 
-                    <!-- Fieldset agrupa os campos relacionados -->
+                    
                     <fieldset>
 
                         <legend>Dados do jogador</legend>
 
-                        <!-- Campo obrigatório com placeholder -->
+                        
                         <label for="nome">Nome:</label><br>
 
                         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
 
                         <br><br>
 
-                        <!-- Campo de e-mail obrigatório -->
+                        
                         <label for="email">E-mail:</label><br>
 
                         <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
 
                         <br><br>
 
-                        <!-- Input do tipo date -->
+                        
                         <label for="nascimento">Data de nascimento:</label><br>
 
                         <input type="date" id="nascimento" name="nascimento">
 
                         <br><br>
 
-                        <!-- Datalist oferece sugestões ao usuário -->
+                        
                         <label for="mob">Mob favorito:</label><br>
 
                         <input list="lista-mobs" id="mob" name="mob" placeholder="Digite ou escolha um mob">
@@ -111,7 +111,7 @@
 
                         <br><br>
 
-                        <!-- Select para escolher uma opção -->
+                        
                         <label for="modo">Modo favorito:</label><br>
 
                         <select id="modo" name="modo">
@@ -126,7 +126,7 @@
 
                         <br><br>
 
-                        <!-- Radio permite selecionar uma opção -->
+                        
                         <p>Você já jogou Minecraft?</p>
 
                         <input type="radio" id="sim" name="jogou" value="sim">
@@ -139,7 +139,6 @@
 
                         <br><br>
 
-                        <!-- Checkbox permite marcar opções -->
                         <p>O que você gosta de fazer?</p>
 
                         <input type="checkbox" id="construir" name="atividade" value="construir">
@@ -156,14 +155,14 @@
 
                         <br><br>
 
-                        <!-- Input para escolher uma cor -->
+                        
                         <label for="cor">Sua cor favorita:</label><br>
 
                         <input type="color" id="cor" name="cor">
 
                         <br><br>
 
-                        <!-- Input range cria uma barra deslizante -->
+                        
                         <label for="nota">
                             Quanto você gosta de Minecraft?
                         </label>
@@ -174,7 +173,7 @@
 
                         <br><br>
 
-                        <!-- Input para selecionar um arquivo -->
+                        
                         <label for="arquivo">
                             Envie uma imagem da sua construção:
                         </label>
@@ -185,7 +184,7 @@
 
                         <br><br>
 
-                        <!-- Área para texto maior -->
+                        
                         <label for="mensagem">
                             Conte sua experiência com Minecraft:
                         </label>
@@ -197,7 +196,7 @@
 
                         <br><br>
 
-                        <!-- Botões do formulário -->
+                        
                         <input type="submit" value="Enviar">
 
                         <input type="reset" value="Limpar">
